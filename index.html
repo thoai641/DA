@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white lg:px-[215px]">
+    <!-- Header -->
+    <header class="flex justify-between items-center py-10">
+        <h1 class="text-2xl font-normal px-9" >GYM<span class="text-yellow-400">24</span></h1>
+        <nav class="">
+            <ul class="flex space-x-20 px-9 ">
+                <li><a href="#" class="text-xs font-light hover:text-yellow-400">Advantages</a></li>
+                <li><a href="#" class="text-xs font-light hover:text-yellow-400">Membership</a></li>
+                <li><a href="#" class="text-xs font-light hover:text-yellow-400">About</a></li>
+                <li><a href="#" class="text-xs font-light hover:text-yellow-400">Trainers</a></li>
+            </ul>
+        </nav>
+        <button class="xl:hidden focus:outline-none focus:ring focus:ring-violet-300">
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               class="h-12 w-12"
+               fill="none"
+                viewBox="0 0 24 24"
+               stroke="currentColor"
+            >
+               <path
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               stroke-width="2"
+               d="M4 6h16M4 12h16m-7 6h7"
+               />
+           </svg>
+           </button>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative flex items-center text-center py-20 px-4 xl:bg-[length:500px_800px] " style="background-image: url(assets/imgs/home.png);">
+        <div class="text-center xl:text-left px-12">
+            <h2 class="text-[64px] font-medium mb-24 xl:mb-14 xl:w-3/5">Free trial session with a trainer</h2>
+            <button class="bg-yellow-300 text-black py-3 px-8 rounded-full text-xl">Detailed</button>
+        </div>
+    </section>
+
+    <!-- Reasons to Join Section -->
+    <section class="px-9 py-[200px]">
+        <h3 class="text-5xl font-medium text-center xl:text-left mb-16 xl:mb-28">Reasons to join</h3>
+        <div class="grid grid-cols-1 px-9 xl:grid-cols-2 gap-11 xl:gap-24 text-center">
+            <div class="flex items-center ">
+                <div>
+                    <img src="assets/imgs/icon_line.svg" alt="">
+                </div>
+                <div class="text-left ml-4">
+                    <h4 class="text-lg font-bold">15000 sq.m.</h4>
+                    <p class="text-sm font-light">A spacious gym for sports - a safe distance between exercise machines.</p>
+                </div>              
+            </div>
+            <div class="flex items-center ">
+                <div>
+                    <img src="assets/imgs/icon_ eqipment.svg" alt="">
+                </div>
+                <div class="text-left ml-4">
+                    <h4 class="text-lg font-bold">200+ equipment</h4>
+                    <p class="text-sm font-light">More than 200 units of the simulators. Premium equipment from LifeStyle, Hammer Strength, TechnoGym.</p>
+                </div>              
+            </div>
+            <div class="flex items-center ">
+                <div>
+                    <img src="assets/imgs/icon_ fitness zones.svg" alt="">
+                </div>
+                <div class="text-left ml-4">
+                    <h4 class="text-lg font-bold">4 fitness zones</h4>
+                    <p class="text-sm font-light">From cardio to functional and cycle. Separate area for boxing and mixed martial arts.</p>
+                </div>              
+            </div>
+            <div class="flex items-center ">
+                <div>
+                    <img src="assets/imgs/icon_time.svg" alt="">
+                </div>
+                <div class="text-left ml-4">
+                    <h4 class="text-lg font-bold">24/7 operation</h4>
+                    <p class="text-sm font-light">The gym is open 24 hours a day, also works on all holidays and weekends.</p>
+                </div>              
+            </div>
+        </div>
+    </section>
+
+    <!-- Gym Membership Section -->
+    <section>
+        <h3 class="text-[28px] xl:text-5xl font-medium text-center mb-16 xl:mb-28">Gym membership</h3>
+        <div class="flex overflow-x-auto snap-x snap-mandatory xl:grid xl:grid-cols-3 gap-8 text-center xl:snap-none w-full">          
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass 'Trial'</h4>
+                <p class="text-2xl font-medium mb-6">$0</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Access to the gym from 8:00 to 14:00</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Trainer will introduce you to the gym</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full mb-0 mt-[86px]">Buy</button>
+            </div>           
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass 'Easy Start'</h4>
+                <p class="text-2xl font-medium mb-6">$119</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Visit without restrictions 24/7</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Individual training program</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Access to the VITRAINER application</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Trainer support</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full ">Buy</button>
+            </div>
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass 'Free Time'</h4>
+                <p class="text-2xl font-medium mb-6">$49</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">The entrance time to the gym is from 14:00 to 16:00</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Without suspension of gym membership</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">The trainer on duty will introduce you to the gym</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full ">Buy</button>
+            </div>
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass '1 Month 24/7'</h4>
+                <p class="text-2xl font-medium mb-6">$85</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Visit without restrictions 24/7</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">The trainer on duty will introduce you to the gym</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full ">Buy</button>
+            </div>
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass 'In Shape (AM)'</h4>
+                <p class="text-2xl font-medium mb-6">$165</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Training in mini-groups until 14:00</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Without suspension of gym membership</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Classes with a trainer in a mini-group 3 times a week</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Trainer support</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full ">Buy</button>
+            </div>
+            <div class="bg-[#222222] flex-none p-8 rounded-lg w-[275px] h-[400] snap-start">
+                <h4 class="text-lg font-bold mb-2 ">Pass 'In Shape (PM)'</h4>
+                <p class="text-2xl font-medium mb-6">$195</p>
+                <hr class="font-black mb-6">
+                <ul class="space-y-2 mb-6 ">
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Training in mini-groups until 17:00</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Without suspension of gym membership</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Classes with a trainer in a mini-group 3 times a week</li>
+                    <li class="flex icons-center text-left text-sm font-light mb-5"><img class="size-6 mt-3 mr-2" src="https://img.icons8.com/?size=100&id=82759&format=png&color=FFFFFF" alt="">Trainer support</li>
+                </ul>
+                <button class="bg-yellow-400 text-black py-1 px-10 rounded-full ">Buy</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-[250px] px-12">
+        <div class="  mx-auto grid grid-cols-1 xl:grid-cols-2 gap-8">
+            <div class="text-center xl:text-left">
+                <h3 class="text-[28px] xl:text-5xl font-medium mb-16">About us</h3>
+                <p class="text-sm font-light mb-6 xl:mr-24">Gym24 is a leading fitness center located near Grushevka metro station, offering over 1500 sq. m of space dedicated to top-of-the-line workout equipment from leading brands such as Hammer Strength, Life Fitness, and TechnoGym.<br><br>
+
+                    With affordable membership options, Gym24 is accessible to everyone who wants to reach their fitness goals, whether it's building strength, increasing endurance, or losing weight.<br><br>
+                    
+                    Certified trainers at Gym24 provide expert guidance and support to develop personalized workout plans tailored to each individual's needs and goals. </p>
+            </div>
+            <div class="flex overflow-x-auto snap-x snap-mandatory h-52 xl:h-[370px]">
+                <img src="assets/imgs/about1.png" alt="Gym photo" class="rounded-lg xl:h-[370px] mr-4 snap-start ">
+                <img src="assets/imgs/about2.png" alt="Gym photo" class="rounded-lg xl:h-[370px] mr-4 snap-start ">
+                <img src="assets/imgs/about3.png" alt="Gym photo" class="rounded-lg xl:h-[370px] mr-4 snap-start ">
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Staff Section -->
+    <section class="">
+        <h3 class="text-[28px] font-medium xl:text-[48px] xl:font-medium text-center mb-16">Trainers staff</h3>
+        <div class=" flex overflow-x-auto snap-x snap-mandatory xl:grid xl:grid-cols-4 gap-8">
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/victoria.png" alt="Victor Ludkovich" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Victor Ludkovich</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div>
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/eliza.png" alt="Elizabeth Lavrinenko" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Elizabeth Lavrinenko</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div>
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/ivan.png" alt="Ivan Gladkikh" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Ivan Gladkikh</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div> 
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/lyud.png" alt="Lyudmila Sabilo" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Lyudmila Sabilo</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div> 
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/evgeny.png" alt="Evgeny Gurkov" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Evgeny Gurkov</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div> 
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/anatolu.png" alt="Anatoly Prytytsky" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Anatoly Prytytsky</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div> 
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/ludk.png" alt="Victor Ludkovich" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Victor Ludkovich</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div> 
+            <div class="bg-[#333333] text-center rounded-lg px-6 py-4">
+                <img src="assets/imgs/maria.png" alt="Maria Masyak" class="xl:h-[240px] object-cover rounded-lg mb-4 snap-start xl:snap-none">
+                <h3 class="text-lg font-bold mb-3 ">Maria Masyak</h4>
+                <div class="grid grid-cols-3 px-7">
+                    <img class="w-8" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="w-8" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="w-8" src="assets/imgs/youtube.png" alt="youtube">
+                </div>     
+            </div>   
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=" text-center flex items-center xl:text-left mb-10">
+        <div class="mt-[260px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class=" hidden lg:block">
+                <h1 class="text-2xl font-normal mb-6" >GYM<span class="text-yellow-400">24</span></h1>
+                <p class="text-sm font-light">Build strength and confidence at our gym with state-of-the-art equipment, personalized training, and a motivating community</p>
+            </div>
+            <div class="xl:ml-24">
+                <h3 class="text-lg font-bold mb-[30px]" >Address</h3>
+                <p class="text-sm font-light">Republic of Belarus<br>
+                    Minsk city<br>
+                    Dzerzhinsky Avenue 15</p>
+            </div>
+            <div class=" xl:ml-24">
+                <h4 class="text-lg font-bold mb-6">Contact</h4>                
+                <p class="flex items-center mb-1"><img class="mr-3 h-5" src="assets/imgs/phone.png" alt="phone">+375(44) 777-34-22</p>
+                <p class="flex items-center mb-1"><img class="mr-3 h-5" src="assets/imgs/email.png" alt="email"> gym24@mail.com</p>
+                <div class="flex items-center py-2">
+                    <img class="mr-2 h-10" src="assets/imgs/instagram.png" alt="instagram">
+                    <img class="mr-2 h-10" src="assets/imgs/fb.png" alt="fb">
+                    <img class="mr-2 h-10" src="assets/imgs/twitter.png" alt="twitter">
+                    <img class="mr-2 h-10" src="assets/imgs/youtube.png" alt="youtube">                   
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
